@@ -2,3 +2,4 @@
 # node_modules/ # 忽略所有 node_modules 文件夹及其子文件
 *.log # 忽略所有的 .log 文件
 *.pyc # 忽略所有的 .pyc 文件
+.vscode/ #忽略所有 .vscode 文件夹及其子文件
