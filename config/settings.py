@@ -7,6 +7,8 @@ HOST = '127.0.0.1'
 PORT = 5000
 SECRET_KEY = '123456'
 
+DB_HOST = '192.168.2.2'
+
 
 
 try:
