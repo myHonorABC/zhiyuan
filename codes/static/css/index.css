@@ -1,0 +1,72 @@
+/* 居中显示 */
+.container {
+    /* width: 80%;
+    height: 200px; */
+    margin: 0 auto;
+    top: 30%;
+    position: relative;
+    background-color: #ccc;
+}
+
+/* 搜索框样式 */
+.search {
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+}
+
+.search input[type="text"] {
+    border: none;
+    outline: none;
+    width: 80%;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.search button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10%;
+}
+
+/* 标签样式 */
+.tags {
+    margin-top: 20px;
+}
+
+.tags button {
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* 选择框和输入框样式 */
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.options select {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.options input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
