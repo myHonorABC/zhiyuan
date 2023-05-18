@@ -1,9 +1,15 @@
+'''
+该文件用于设置flask项目的配置参数
+'''
 
-HOST = '127.0.0.2'
+
+HOST = '127.0.0.1'
 PORT = 5000
 SECRET_KEY = '123456'
 
+
+
 try:
-    from config.dbSettings import *
+    from config.localSettings import *
 except ImportError:
     pass
