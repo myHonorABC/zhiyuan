@@ -43,7 +43,7 @@ def logout():
     run_logger.info('Welcome to the logout!')
     if 'user_id' in session:
         session.clear()
-        run_logger('The user_id in session is clear.')
+        # run_logger('The user_id in session is clear.')
     return redirect(url_for('loginUrl.login'))
 
 @loginUrl.route('/about')
